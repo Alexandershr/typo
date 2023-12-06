@@ -1,0 +1,55 @@
+/* support.css */
+
+body {
+    background-color: #e8d4ae; /* Vintage background color */
+    font-family: 'Courier New', monospace; /* Retro font */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #574f4e; /* Dark gray background color for the navigation bar */
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: #e8d4ae; /* Vintage text color */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #776c6c; /* Darker gray on hover */
+}
+
+/* Additional styling for the vintage feel */
+h1 {
+    color: #a0616a; /* Burgundy header text color */
+}
+
+p {
+    color: #3c312f; /* Dark brown paragraph text color */
+}
+
+button {
+    background-color: #d8a2a2; /* Light pink button background color */
+    color: #3c312f; /* Dark brown button text color */
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #a0616a; /* Darker pink on hover */
+}
+
+/* Feel free to adjust these styles based on your preferences. */

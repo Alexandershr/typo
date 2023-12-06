@@ -1,0 +1,62 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e9d2; /* A warm background color */
+}
+
+header {
+    background-color: #5c4b36; /* A rich brown for the header */
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #5c4b36; /* Match the header color for consistency */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.promotion {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #985f3a; /* A vintage orange-brown color for the button */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #734727; /* A darker shade on hover for depth */
+}
+
+/* Style the vintage image with a border */
+img {
+    border: 8px solid #e2c68a; /* A light brown border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for a vintage touch */
+}

@@ -1,0 +1,74 @@
+body {
+    background-color: #f4ede8; /* Vintage background color */
+    font-family: 'Times New Roman', serif; /* Vintage font */
+    color: #564238; /* Vintage text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #333; /* Dark background color */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 20px; /* Add some space between header and navigation */
+}
+
+ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between navigation items */
+}
+
+a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color */
+    font-size: 18px; /* Font size */
+    font-family: 'Times New Roman', Times, serif; /* Vintage-style font */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+a:hover {
+    color: #ffcc00; /* Change text color on hover */
+}
+
+
+#feedback {
+    background-color: #e3d3bf; /* Feedback section background color */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px; /* Rounded corners for vintage look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Vintage box shadow */
+}
+
+#feedbackForm {
+    max-width: 600px;
+    margin: auto;
+}
+
+label,
+textarea,
+select,
+button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #564238; /* Vintage button color */
+    color: #f4ede8; /* Vintage text color on the button */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8d735b; /* Vintage button color on hover */
+}
